@@ -1,4 +1,4 @@
-preview: [https://jonashaas.github.io/layer-menu/](https://jonashaas.github.io/layer-menu/) (Best in Mobile)
+preview: [https://jonashaas.github.io/layer-menu/](https://jonashaas.github.io/layer-menu/) (best in mobile)
 
 todo:
 - add repsponsiveness for desktop
