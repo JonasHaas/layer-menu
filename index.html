@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="de">
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stacked Menu</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header id="page-header">
+        <div class="he container">
+            <!-- Header Part -1 -->
+            <div class="he--logo">
+                <div class="icon">
+                    Logo  
+                </div>
+                <div class="text d-none">
+                    Logo - Desk
+                </div>
+            </div>
+            <!-- Header Part 2 -->
+            <div class="he--elements">
+                <div class="he--elements-catalog">
+                    Katalog
+                </div>
+                <div class="he--elements-ltoggle">
+                    Language
+                </div>
+                <div class="he--elements-search">
+                    Search
+                </div>
+                <div id="mtoggle" class="he--elements-mtoggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="nav">
+        <!-- Navigation -->
+        <nav id="mnavigation" class="main-navigation">
+            <div class="mobile-title">Menu</div>
+            <ul class="main-navigation--items">
+                <li>
+                    <a href="javascript:void(0)" data-target="#produkte" class="sub-item">Produkte</a>
+                    <span>></span>
+                </li>
+                <li>
+                    <a href="javascript:void(0)" data-target="#anwendungen" class="sub-item">Anwendungen</a>
+                    <span>></span>
+                </li>
+                <li>
+                    <a href="javascript:void(0)" data-target="#unternehmen"class="sub-item">Unternehmen</a>
+                    <span>></span>
+                </li>
+                <li>
+                    <a href="" class="item">Karriere</a>
+                </li>
+                <li>
+                    <a href="" class="item">News</a>
+                </li>
+                <li>
+                    <a href=""class="item">Kontakt</a>
+                </li>
+            </ul>
+        </nav>
+        <aside id="produkte" class="layer-navigation">
+            <a href="javascript:void(0)" class="layerClose">< Zurück zur Menu-Übersicht</a>
+            <div class="mobile-title">Produkte</div>
+            <ul>
+                <li>
+                    <a href="">Karriere</a>
+                </li>
+                <li>
+                    <a href="">News</a>
+                </li>
+                <li>
+                    <a href="">Kontakt</a>
+                </li>
+            </ul>
+        </aside>
+        <aside id="anwendungen" class="layer-navigation">
+            <a href="javascript:void(0)" class="layerClose">< Zurück zur Menu-Übersicht</a>
+            <div class="mobile-title">Produkte</div>
+            <ul>
+                <li>
+                    <a href="">Karriere</a>
+                </li>
+                <li>
+                    <a href="">News</a>
+                </li>
+                <li>
+                    <a href="">Kontakt</a>
+                </li>
+            </ul>
+        </aside>
+        <aside id="unternehmen" class="layer-navigation">
+            <a href="javascript:void(0)" class="layerClose">< Zurück zur Menu-Übersicht</a>
+            <div class="mobile-title">Produkte</div>
+            <ul>
+                <li>
+                    <a href="">Karriere</a>
+                </li>
+                <li>
+                    <a href="">News</a>
+                </li>
+                <li>
+                    <a href="">Kontakt</a>
+                </li>
+            </ul>
+        </aside>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+</html>
