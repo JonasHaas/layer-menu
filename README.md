@@ -4,5 +4,3 @@ todo:
 - add repsponsiveness for desktop
 - add some style
 - animate menu toggle
-
-- Contributor Test
